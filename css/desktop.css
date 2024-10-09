@@ -1,0 +1,16 @@
+@media (width > 1280px) {
+    .header-left-nav nav {
+        display: flex;
+        align-items: center;
+
+        & .logo-microsoft {
+            width: 108px;
+        }
+
+        & .header-line {
+            height: 30px;
+            width: 2px;
+            background-color: #000;
+        }
+    }
+}
