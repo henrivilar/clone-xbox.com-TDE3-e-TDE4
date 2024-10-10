@@ -8,6 +8,17 @@
     src: url(../font/segoe-ui-this/segoeuithibd.ttf);
 }
 
+:root {
+    --font-color: #262626;
+}
+
 body {
     font-family: "Segoe UI";
+    color: var(--font-color);
+
+    & a {
+        text-decoration: none;
+        color: var(--font-color);
+        font-size: 0.8em;
+    }
 }
