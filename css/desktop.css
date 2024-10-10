@@ -10,7 +10,7 @@ header {
         gap: 40px;
     }
 
-    & .header-left-nav nav a::after {
+    & .header-left-nav nav a::after, .header-right-nav nav a:first-child::after {
         content: '';
         display: inline-block;
         position: absolute;
@@ -22,17 +22,6 @@ header {
         background-size: contain;
     }
     
-    & .header-right-nav nav .normal::after {
-        content: '';
-        display: inline-block;
-        position: absolute;
-        width: 10px;
-        height: 10px;
-        margin: 3px 0 0 10px;
-        background-image: url(../icons/header/down-arrow.svg);
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
     & .header-right-nav nav .search::after {
         content: '';
         display: inline-block;
